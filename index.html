@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Sign-up Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container-body">
+            <div id="container-image">
+                <img src="/img/photo-1518156677180-95a2893f3e9f.avif" class="wallpaper">
+                <div class="logo">
+                    <img src="/img/odin-lined.png">
+                    <p>The Odin Project</p>
+                </div>
+                <p class="source">Photo by Nathan Dumlao on Unsplash</p>
+            </div>
+            <div id="container-content">
+                <div class="text-banner">
+                    <p class="text-main">This is not real online service! You know
+                        you
+                        need something like this in your life to help you
+                        realize
+                        your deepest dreams. Sign up <em>now</em> to get
+                        started.</p>
+                    <p class="text-second">You <em>know</em> you want to.</p>
+                </div>
+
+                <form action="#" method="post">
+                    <div id="container-signup">
+                        <p class="text-form">Let's do this!</p>
+                        <br>
+                        <div class="sign-up">
+                            <div class="left-signup">
+                                <div id="first-name-wrap">
+                                    <label for="first-name">FIRST NAME</label>
+                                    <input type="text" id="first-name"
+                                        name="first-name" required>
+                                </div>
+
+                                <div id="email-wrap">
+                                    <label for="email-user">EMAIL</label>
+                                    <input type="email" id="email-user"
+                                        name="email-user" required>
+                                </div>
+
+                                <div id="password-wrap">
+                                    <label for="password-user">PASSWORD</label>
+                                    <input type="password" id="password-user"
+                                        name="password-user" minlength="6"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="right-signup">
+                                <div id="last-name-wrap">
+                                    <label for="last-name">LAST NAME</label>
+                                    <input type="text" id="last-name"
+                                        name="last-name" required>
+                                </div>
+
+                                <div id="phone-wrap">
+                                    <label for="phone-user">PHONE NUMBER</label>
+                                    <input type="text" id="phone-user"
+                                        name="phone-user" minlength="9" maxlength="12"
+                                        required>
+                                </div>
+
+                                <div id="cpassword-wrap">
+                                    <label for="cpassword-user">CONFIRM
+                                        PASSWORD</label>
+                                    <input type="password" id="cpassword-user"
+                                        name="cpassword-user" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit">Create Account</button>
+
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

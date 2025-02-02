@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container-body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container-image {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallpaper {
+    position: absolute;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 20vh;
+    width: 40vw;
+    background-color: rgba(0,0,0,0.49);
+    margin-bottom: 420px;
+}
+
+.logo>p {
+    align-content: center;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.source {
+    position: relative;
+    padding-top: 97vh;
+    color: whitesmoke;
+}
+
+#container-content {
+    height: 100vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.text-banner,
+.bottom {
+    padding: 2em;
+}
+
+.text-main {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.text-second {
+    font-size: 2rem;
+}
+
+#container-signup {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    padding: 2em;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.47);
+}
+
+.sign-up {
+    display: flex;
+    height: 30vh;
+}
+
+.text-form {
+    padding-left: 5px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.right-signup,
+.left-signup {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1 1 0;
+}
+
+#first-name-wrap,
+#email-wrap,
+#password-wrap,
+#last-name-wrap,
+#phone-wrap,
+#cpassword-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding-left: 3px;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+input {
+    overflow: hidden;
+    width: 60%;
+    height: 2.5em;
+    font-size: 1rem;
+    padding-left: 10px;
+    border: 2px solid whitesmoke;
+
+    &:valid {
+        border: 1px solid green;
+    }
+
+
+}
+
+.bottom {
+    padding-left: 3em;
+}
+
+.bottom>button {
+    width: 25%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background-color: darkgreen;
+}
+
+.bottom>p {
+    font-size: 1.2em;
+}
+
+.bottom>p>a {
+    color: black;
+    text-decoration-line: none;
+}
